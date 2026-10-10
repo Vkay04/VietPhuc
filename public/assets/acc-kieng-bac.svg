@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1500" width="1000" height="1500">
+  <defs>
+    <!-- Shimmering Silver Torc Gradient -->
+    <linearGradient id="silverTorc" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="35%" stop-color="#E0E0E0"/>
+      <stop offset="70%" stop-color="#9E9E9E"/>
+      <stop offset="100%" stop-color="#E0E0E0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- KIỀNG BẠC CỔ TRUYỀN (NỮ / LỄ PHỤC CƯỚI & LỄ HỘI) -->
+  <g id="acc-kieng-bac">
+    <!-- Solid Silver Torc Ring resting cleanly around base of neck -->
+    <path d="M 445 440 Q 500 480 555 440 Q 560 455 545 470 Q 500 500 455 470 Q 440 455 445 440 Z" fill="url(#silverTorc)" stroke="#757575" stroke-width="1.5"/>
+
+    <!-- Subtle Engraved Plum Blossom Pattern (Chạm Hoa Mai) -->
+    <circle cx="500" cy="482" r="3" fill="#D32F2F"/>
+    <ellipse cx="493" cy="482" rx="2.5" ry="1.5" fill="#EEEEEE"/>
+    <ellipse cx="507" cy="482" rx="2.5" ry="1.5" fill="#EEEEEE"/>
+    <ellipse cx="500" cy="476" rx="1.5" ry="2.5" fill="#EEEEEE"/>
+    <ellipse cx="500" cy="488" rx="1.5" ry="2.5" fill="#EEEEEE"/>
+
+    <text x="500" y="525" font-family="'Comfortaa', sans-serif" font-size="12" fill="#757575" text-anchor="middle" font-weight="bold">Kiềng Bạc Chạm Khắc</text>
+  </g>
+</svg>

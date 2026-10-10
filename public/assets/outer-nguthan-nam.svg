@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1500" width="1000" height="1500">
+  <defs>
+    <linearGradient id="nguThanNamGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4E342E"/>
+      <stop offset="50%" stop-color="#3E2723"/>
+      <stop offset="100%" stop-color="#271815"/>
+    </linearGradient>
+    <linearGradient id="bronzeTrim" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#D7CCC8"/>
+      <stop offset="100%" stop-color="#8D6E63"/>
+    </linearGradient>
+  </defs>
+
+  <!-- ÁO NGŨ THÂN TAY CHẼN (NAM) - KHỚP 100% TỈ LỆ THÂN NAM -->
+  <g id="outer-nguthan-nam">
+    <!-- Fitted Chẽn Sleeves (Bọc kín vai X: 380-620 và nách nam, dừng tại cổ tay Y: 905) -->
+    <!-- Left Sleeve -->
+    <path d="M 375 470 Q 320 640 290 845 L 275 905 L 327 905 L 347 845 Q 375 660 415 520 Z" fill="url(#nguThanNamGrad)" stroke="#271815" stroke-width="2.5"/>
+    <path d="M 275 905 L 327 905 L 325 895 L 277 895 Z" fill="url(#bronzeTrim)"/>
+
+    <!-- Right Sleeve -->
+    <path d="M 625 470 Q 680 640 710 845 L 725 905 L 673 905 L 653 845 Q 625 660 585 520 Z" fill="url(#nguThanNamGrad)" stroke="#271815" stroke-width="2.5"/>
+    <path d="M 725 905 L 673 905 L 675 895 L 723 895 Z" fill="url(#bronzeTrim)"/>
+
+    <!-- Body & Flaps (Bao bọc bờ vai nam X: 380-620, eo Y: 700-720, hông Y: 850 đến gấu Y: 1355) -->
+    <path d="M 466 466 L 375 470 Q 350 700 345 1050 Q 335 1250 345 1355 Q 500 1380 655 1355 Q 665 1250 655 1050 Q 650 700 625 470 L 534 466 Z" fill="url(#nguThanNamGrad)" stroke="#271815" stroke-width="3"/>
+
+    <!-- Standing Collar (Cổ đứng ôm gốc cổ Y: 424, nằm ngay dưới cằm nam Y: 420) -->
+    <path d="M 466 424 L 466 466 Q 500 480 534 466 L 534 424 Q 500 422 466 424 Z" fill="#3E2723" stroke="url(#bronzeTrim)" stroke-width="3"/>
+
+    <!-- 5 Buttons (Ngũ Thường) -->
+    <circle cx="532" cy="436" r="5.5" fill="#FFD54F" stroke="#271815" stroke-width="1.5"/>
+    <circle cx="532" cy="466" r="5.5" fill="#FFD54F" stroke="#271815" stroke-width="1.5"/>
+    <circle cx="548" cy="515" r="5.5" fill="#FFD54F" stroke="#271815" stroke-width="1.5"/>
+    <circle cx="568" cy="565" r="5.5" fill="#FFD54F" stroke="#271815" stroke-width="1.5"/>
+    <circle cx="580" cy="630" r="5.5" fill="#FFD54F" stroke="#271815" stroke-width="1.5"/>
+
+    <!-- Right Flap seam -->
+    <path d="M 534 466 Q 575 520 580 630 Q 570 950 560 1365" stroke="#271815" stroke-width="2" fill="none"/>
+  </g>
+</svg>

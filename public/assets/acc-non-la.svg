@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1500" width="1000" height="1500">
+  <defs>
+    <linearGradient id="nonLaGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFDE7"/>
+      <stop offset="50%" stop-color="#FFF9C4"/>
+      <stop offset="100%" stop-color="#FFF176"/>
+    </linearGradient>
+  </defs>
+
+  <!-- NÓN LÁ TRUYỀN THỐNG VIỆT NAM -->
+  <g id="acc-non-la">
+    <!-- Conical Hat Apex tilted slightly on head -->
+    <!-- Triangle Conical Silhouette -->
+    <path d="M 500 80 L 680 280 Q 500 320 320 280 Z" fill="url(#nonLaGrad)" stroke="#FBC02D" stroke-width="3"/>
+
+    <!-- Concentric Bamboo Ribs (16 Vành Nón Lá Biểu Tượng) -->
+    <path d="M 480 120 Q 500 130 520 120" stroke="#FDD835" stroke-width="1.5" fill="none"/>
+    <path d="M 450 160 Q 500 180 550 160" stroke="#FDD835" stroke-width="1.5" fill="none"/>
+    <path d="M 420 200 Q 500 230 580 200" stroke="#FDD835" stroke-width="1.5" fill="none"/>
+    <path d="M 380 240 Q 500 280 620 240" stroke="#FDD835" stroke-width="1.5" fill="none"/>
+    <path d="M 335 275 Q 500 315 665 275" stroke="#E0A96D" stroke-width="2" fill="none"/>
+
+    <!-- Silk Chin Strap (Quai nón lụa hồng) -->
+    <path d="M 390 280 Q 420 400 480 430 Q 500 440 520 430 Q 580 400 610 280" stroke="#EC407A" stroke-width="4.5" fill="none"/>
+    <!-- Small bow knot under chin -->
+    <circle cx="500" cy="435" r="5" fill="#D81B60"/>
+    <path d="M 495 435 Q 490 480 485 520" stroke="#EC407A" stroke-width="3"/>
+    <path d="M 505 435 Q 510 480 515 520" stroke="#EC407A" stroke-width="3"/>
+
+    <text x="500" y="60" font-family="'Comfortaa', sans-serif" font-size="12" fill="#F57F17" text-anchor="middle" font-weight="bold">Nón Lá Bài Thơ</text>
+  </g>
+</svg>

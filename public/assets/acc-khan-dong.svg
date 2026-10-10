@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1500" width="1000" height="1500">
+  <defs>
+    <!-- Rich Indigo / Black Brocade Turban Gradient -->
+    <linearGradient id="khanDongGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#283593"/>
+      <stop offset="60%" stop-color="#1A237E"/>
+      <stop offset="100%" stop-color="#121858"/>
+    </linearGradient>
+  </defs>
+
+  <!-- KHĂN ĐÓNG / KHĂN XẾP QUẤN CHỮ NHÂN CỔ TRUYỀN -->
+  <g id="acc-khan-dong">
+    <!-- Base Turban Halo around forehead -->
+    <path d="M 375 220 Q 500 135 625 220 Q 640 270 615 285 Q 500 240 385 285 Q 360 270 375 220 Z" fill="url(#khanDongGrad)" stroke="#0D1342" stroke-width="2"/>
+
+    <!-- Distinctive Overlapping Folds (Nếp quấn chữ Nhân / Nhất) -->
+    <!-- Fold 1 -->
+    <path d="M 380 240 Q 500 170 620 240" stroke="#3949AB" stroke-width="3" fill="none"/>
+    <!-- Fold 2 -->
+    <path d="M 385 255 Q 500 190 615 255" stroke="#3949AB" stroke-width="3" fill="none"/>
+    <!-- Fold 3 -->
+    <path d="M 390 270 Q 500 210 610 270" stroke="#3949AB" stroke-width="3" fill="none"/>
+
+    <!-- Central Intersection forming "Chữ Nhân" (人) / "Chữ Nhất" (一) -->
+    <path d="M 480 200 L 515 235 L 535 220" stroke="#5C6BC0" stroke-width="2.5" fill="none"/>
+
+    <text x="500" y="145" font-family="'Comfortaa', sans-serif" font-size="12" fill="#3F51B5" text-anchor="middle" font-weight="bold">Khăn Đóng / Khăn Xếp</text>
+  </g>
+</svg>

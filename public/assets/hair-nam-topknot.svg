@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1500" width="1000" height="1500">
+  <defs>
+    <radialGradient id="topknotGrad" cx="45%" cy="30%" r="60%">
+      <stop offset="0%" stop-color="#3A2C26"/>
+      <stop offset="60%" stop-color="#1E1410"/>
+      <stop offset="100%" stop-color="#100A08"/>
+    </radialGradient>
+  </defs>
+  <!-- TÓC BỚI CỦ TỎI NHO SINH (NAM CỔ TRUYỀN) -->
+  <g id="hair-nam-topknot">
+    <!-- Topknot Bun -->
+    <ellipse cx="500" cy="120" rx="45" ry="40" fill="url(#topknotGrad)" stroke="#100A08" stroke-width="2"/>
+    <!-- Scholar Ribbon -->
+    <path d="M 465 130 Q 500 138 535 130" stroke="#C0392B" stroke-width="6" fill="none"/>
+    <path d="M 480 132 Q 470 180 460 220" stroke="#C0392B" stroke-width="4" fill="none"/>
+    <path d="M 520 132 Q 530 180 540 220" stroke="#C0392B" stroke-width="4" fill="none"/>
+    <!-- Head Base (Wraps head top cleanly) -->
+    <path d="M 380 270 Q 380 155 500 150 Q 620 155 620 270 Q 570 210 500 210 Q 430 210 380 270 Z" fill="url(#topknotGrad)"/>
+    <!-- Sideburns -->
+    <path d="M 388 260 L 388 320 L 400 290 Z" fill="#1E1410"/>
+    <path d="M 612 260 L 612 320 L 600 290 Z" fill="#1E1410"/>
+  </g>
+</svg>

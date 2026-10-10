@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1500" width="1000" height="1500">
+  <defs>
+    <linearGradient id="tuThanGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#795548"/>
+      <stop offset="50%" stop-color="#5D4037"/>
+      <stop offset="100%" stop-color="#3E2723"/>
+    </linearGradient>
+    <linearGradient id="beltGreen" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#AED581"/>
+      <stop offset="100%" stop-color="#7CB342"/>
+    </linearGradient>
+    <linearGradient id="beltPink" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F48FB1"/>
+      <stop offset="100%" stop-color="#EC407A"/>
+    </linearGradient>
+  </defs>
+
+  <!-- ÁO TỨ THÂN KINH BẮC (NỮ) - KHỚP 100% TỈ LỆ THÂN NỮ -->
+  <g id="outer-tuthan">
+    <!-- Back Two Panels (Khâu liền thành sống áo, buông sau lưng xuống Y: 1350) -->
+    <path d="M 466 466 L 388 470 Q 355 800 340 1350 Q 500 1375 660 1350 Q 645 800 612 470 L 534 466 Z" fill="url(#tuThanGrad)" stroke="#3E2723" stroke-width="2"/>
+    <path d="M 500 466 L 500 1365" stroke="#2B1A15" stroke-width="2.5" stroke-dasharray="8 4"/>
+
+    <!-- Sleeves (Bao trọn bờ vai X: 395-605 và nách, ôm sát tay tới cổ tay Y: 905) -->
+    <path d="M 388 470 Q 325 640 295 845 L 280 905 L 332 905 L 352 845 Q 380 660 425 520 Z" fill="url(#tuThanGrad)" stroke="#3E2723" stroke-width="2"/>
+    <path d="M 612 470 Q 675 640 705 845 L 720 905 L 668 905 L 648 845 Q 620 660 575 520 Z" fill="url(#tuThanGrad)" stroke="#3E2723" stroke-width="2"/>
+
+    <!-- Open Front Flaps (Mở vạt khoe yếm đào bên trong) -->
+    <!-- Left Front Flap -->
+    <path d="M 466 466 L 388 470 Q 370 650 375 790 L 435 790 Q 420 650 445 520 Z" fill="url(#tuThanGrad)" stroke="#3E2723" stroke-width="2"/>
+    <!-- Right Front Flap -->
+    <path d="M 534 466 L 612 470 Q 630 650 625 790 L 565 790 Q 580 650 555 520 Z" fill="url(#tuThanGrad)" stroke="#3E2723" stroke-width="2"/>
+
+    <!-- Tied Lower Front Flaps (Vạt buộc buông xòe hai bên hông Y: 850) -->
+    <path d="M 375 790 Q 340 1020 310 1280 Q 335 1290 365 1250 Q 395 1020 415 790 Z" fill="url(#tuThanGrad)" stroke="#3E2723" stroke-width="2"/>
+    <path d="M 625 790 Q 660 1020 690 1280 Q 665 1290 635 1250 Q 605 1020 585 790 Z" fill="url(#tuThanGrad)" stroke="#3E2723" stroke-width="2"/>
+
+    <!-- THẮT LƯNG HOA LÝ & RUỘT TƯỢNG (GREEN & PINK SILK SASHES Ở EO Y: 760 - 805) -->
+    <!-- Green Sash around waist Y: 760 - 805 -->
+    <path d="M 410 760 Q 500 780 590 760 L 595 805 Q 500 825 405 805 Z" fill="url(#beltGreen)" stroke="#558B2F" stroke-width="2"/>
+    <!-- Pink Sash layered under/over -->
+    <path d="M 415 780 Q 500 795 585 780 L 588 815 Q 500 830 412 815 Z" fill="url(#beltPink)" stroke="#C2185B" stroke-width="1.5"/>
+
+    <!-- Central Hanging Silk Ribbons -->
+    <path d="M 480 805 Q 460 980 440 1180 L 465 1185 Q 485 980 495 805 Z" fill="url(#beltGreen)" stroke="#558B2F" stroke-width="1.5"/>
+    <path d="M 505 805 Q 525 980 545 1190 L 520 1195 Q 505 980 495 805 Z" fill="url(#beltPink)" stroke="#C2185B" stroke-width="1.5"/>
+
+    <!-- Central Rosette knot -->
+    <ellipse cx="500" cy="800" rx="18" ry="14" fill="#E91E63" stroke="#880E4F" stroke-width="2"/>
+    <circle cx="500" cy="800" r="5" fill="#AED581"/>
+  </g>
+</svg>

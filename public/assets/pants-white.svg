@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1500" width="1000" height="1500">
+  <defs>
+    <linearGradient id="silkWhiteGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F2EFE9"/>
+      <stop offset="50%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#EBE7DF"/>
+    </linearGradient>
+  </defs>
+
+  <!-- QUẦN LỤA TRẮNG ỐNG RỘNG TRUYỀN THỐNG - CẠP EO Y: 760, GẤU MẮT CÁ CHÂN Y: 1410 -->
+  <g id="pants-white">
+    <!-- Seamless Full Trousers (Cạp eo nâng đúng Y: 760, phủ kín đũng quần Y: 950, dài đến mắt cá chân Y: 1410) -->
+    <path d="M 405 760 Q 500 775 595 760 Q 620 880 635 1150 L 645 1410 L 510 1410 Q 525 1150 500 950 Q 475 1150 490 1410 L 355 1410 L 365 1150 Q 380 880 405 760 Z" fill="url(#silkWhiteGrad)" stroke="#D8D0C0" stroke-width="2"/>
+
+    <!-- Waistband Detail (Đai cạp quần) -->
+    <path d="M 405 760 Q 500 775 595 760 L 598 780 Q 500 795 402 780 Z" fill="#E8E2D5" stroke="#D8D0C0" stroke-width="1.5"/>
+
+    <!-- Silk folds & shadows (Nếp rủ lụa tơ tằm) -->
+    <path d="M 415 880 Q 405 1180 395 1390" stroke="#DDD5C7" stroke-width="2" fill="none"/>
+    <path d="M 455 960 Q 450 1180 445 1390" stroke="#DDD5C7" stroke-width="2" fill="none"/>
+    <path d="M 585 880 Q 595 1180 605 1390" stroke="#DDD5C7" stroke-width="2" fill="none"/>
+    <path d="M 545 960 Q 550 1180 555 1390" stroke="#DDD5C7" stroke-width="2" fill="none"/>
+  </g>
+</svg>

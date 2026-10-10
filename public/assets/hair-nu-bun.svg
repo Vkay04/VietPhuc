@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1500" width="1000" height="1500">
+  <defs>
+    <radialGradient id="hairBunGrad" cx="45%" cy="35%" r="60%">
+      <stop offset="0%" stop-color="#3D2E28"/>
+      <stop offset="60%" stop-color="#1F1511"/>
+      <stop offset="100%" stop-color="#120B08"/>
+    </radialGradient>
+  </defs>
+  <!-- BÚI TÓC BÁNH DÀY TRUYỀN THỐNG (NỮ) -->
+  <g id="hair-nu-bun">
+    <!-- Back Bun -->
+    <ellipse cx="500" cy="140" rx="90" ry="65" fill="url(#hairBunGrad)" stroke="#120B08" stroke-width="2"/>
+    <!-- Golden Hairpin (Trâm cài) -->
+    <path d="M 400 125 L 600 155" stroke="#D4AF37" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="410" cy="126" r="10" fill="#E86C60" stroke="#D4AF37" stroke-width="2"/>
+    <circle cx="410" cy="126" r="4" fill="#50C878"/>
+    <path d="M 410 136 Q 405 170 415 190" stroke="#D4AF37" stroke-width="2" fill="none"/>
+    <circle cx="415" cy="192" r="5" fill="#E86C60"/>
+
+    <!-- Front Hair & Parting (Completely envelopes head crown Y: 160-280) -->
+    <path d="M 378 280 Q 378 150 500 150 Q 622 150 622 280 Q 615 210 540 205 Q 500 205 500 220 Q 500 205 460 205 Q 385 210 378 280 Z" fill="url(#hairBunGrad)"/>
+
+    <!-- Side wisps / Tóc mai -->
+    <path d="M 385 270 Q 375 320 385 360 Q 390 320 395 270 Z" fill="#241712"/>
+    <path d="M 615 270 Q 625 320 615 360 Q 610 320 605 270 Z" fill="#241712"/>
+  </g>
+</svg>

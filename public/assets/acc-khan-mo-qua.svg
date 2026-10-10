@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1500" width="1000" height="1500">
+  <defs>
+    <linearGradient id="moQuaGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#263238"/>
+      <stop offset="50%" stop-color="#1A2327"/>
+      <stop offset="100%" stop-color="#0E1315"/>
+    </linearGradient>
+  </defs>
+
+  <!-- KHĂN MỎ QUẠ ĐEN KINH BẮC (NỮ) -->
+  <g id="acc-khan-mo-qua">
+    <!-- Cloth covering head from crown down past ears -->
+    <path d="M 375 280 Q 370 160 500 155 Q 630 160 625 280 Q 615 350 600 370 Q 560 380 500 405 Q 440 380 400 370 Q 385 350 375 280 Z" fill="url(#moQuaGrad)" stroke="#0E1315" stroke-width="2"/>
+
+    <!-- The distinctive "Crow's Beak" point right at the center of the forehead (Mỏ Quạ nhọn ngay giữa trán) -->
+    <path d="M 430 250 Q 465 240 500 280 Q 535 240 570 250 Q 585 290 575 350 Q 545 365 500 395 Q 455 365 425 350 Q 415 290 430 250 Z" fill="none" stroke="#37474F" stroke-width="2"/>
+
+    <!-- Sharp beak folds -->
+    <path d="M 470 240 L 500 275 L 530 240" stroke="#CFD8DC" stroke-width="1.5" fill="none"/>
+
+    <text x="500" y="135" font-family="'Comfortaa', sans-serif" font-size="12" fill="#546E7A" text-anchor="middle" font-weight="bold">Khăn Mỏ Quạ</text>
+  </g>
+</svg>

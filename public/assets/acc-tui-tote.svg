@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1500" width="1000" height="1500">
+  <defs>
+    <linearGradient id="toteCanvas" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFDF9"/>
+      <stop offset="100%" stop-color="#EFE8DB"/>
+    </linearGradient>
+  </defs>
+
+  <!-- TÚI VẢI TOTE GEN Z (TREO BÊN TAY TRÁI) -->
+  <g id="acc-tui-tote">
+    <!-- Shoulder Straps coming from left hand / shoulder -->
+    <path d="M 315 880 Q 290 920 280 970 L 330 970 Q 335 920 325 880 Z" fill="none" stroke="#A1887F" stroke-width="4"/>
+
+    <!-- Tote Bag Body -->
+    <rect x="250" y="970" width="110" height="150" rx="10" fill="url(#toteCanvas)" stroke="#8D6E63" stroke-width="2.5"/>
+
+    <!-- Graphic Print on Tote: "VIỆT PHỤC REMIX" with small lotus -->
+    <rect x="265" y="1000" width="80" height="85" rx="6" fill="#F8BBD0" opacity="0.4"/>
+    <circle cx="305" cy="1035" r="16" fill="#E91E63" opacity="0.7"/>
+    <!-- Lotus petal -->
+    <path d="M 305 1025 C 295 1035 295 1045 305 1050 C 315 1045 315 1035 305 1025 Z" fill="#FFF"/>
+
+    <text x="305" y="1068" font-family="'Nunito', sans-serif" font-size="10" fill="#4E342E" text-anchor="middle" font-weight="bold">VIỆT PHỤC</text>
+    <text x="305" y="1078" font-family="'Nunito', sans-serif" font-size="9" fill="#E91E63" text-anchor="middle" font-weight="bold">REMIX</text>
+
+    <text x="305" y="1140" font-family="'Comfortaa', sans-serif" font-size="12" fill="#8D6E63" text-anchor="middle" font-weight="bold">Túi Tote Canvas</text>
+  </g>
+</svg>

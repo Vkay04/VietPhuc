@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1500" width="1000" height="1500">
+  <defs>
+    <radialGradient id="skinGradHeadNam" cx="50%" cy="35%" r="60%">
+      <stop offset="0%" stop-color="#FFFBF5"/>
+      <stop offset="60%" stop-color="#FCEAD6"/>
+      <stop offset="100%" stop-color="#F5D3B8"/>
+    </radialGradient>
+    <radialGradient id="blushHeadNam" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFA07A" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#FFA07A" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="softGlowHeadNam" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#4A3B32" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+
+  <!-- LAYER 6: ĐẦU NHÂN VẬT NAM (HEAD-BASE - LAYER ĐỘC LẬP TRÊN ÁO NGOÀI) -->
+  <g id="head-nam" filter="url(#softGlowHeadNam)">
+    <!-- Head & Face (Crisp anime jawline, chin at Y: 420) -->
+    <path d="M 395 280 Q 395 165 500 165 Q 605 165 605 280 Q 605 385 500 420 Q 395 385 395 280 Z" fill="url(#skinGradHeadNam)" stroke="#DEBEA6" stroke-width="2.5"/>
+
+    <!-- Ears -->
+    <path d="M 395 280 Q 385 300 393 320 Q 399 310 397 290 Z" fill="url(#skinGradHeadNam)" stroke="#DEBEA6" stroke-width="2"/>
+    <path d="M 605 280 Q 615 300 607 320 Q 601 310 603 290 Z" fill="url(#skinGradHeadNam)" stroke="#DEBEA6" stroke-width="2"/>
+
+    <!-- Blush -->
+    <circle cx="435" cy="325" r="20" fill="url(#blushHeadNam)"/>
+    <circle cx="565" cy="325" r="20" fill="url(#blushHeadNam)"/>
+
+    <!-- Eyebrows -->
+    <path d="M 420 252 Q 448 244 472 254" stroke="#3D2B1F" stroke-width="3.5" stroke-linecap="round" fill="none"/>
+    <path d="M 528 254 Q 552 244 580 252" stroke="#3D2B1F" stroke-width="3.5" stroke-linecap="round" fill="none"/>
+
+    <!-- Eyes -->
+    <g id="head-nam-left-eye">
+      <ellipse cx="445" cy="288" rx="18" ry="20" fill="#2E2018"/>
+      <ellipse cx="445" cy="293" rx="15" ry="14" fill="#5A3A22"/>
+      <circle cx="440" cy="282" r="5.5" fill="#FFFFFF"/>
+      <circle cx="451" cy="295" r="3" fill="#FFFFFF"/>
+      <path d="M 422 278 Q 445 264 468 276" stroke="#1D120B" stroke-width="3.5" stroke-linecap="round" fill="none"/>
+    </g>
+    <g id="head-nam-right-eye">
+      <ellipse cx="555" cy="288" rx="18" ry="20" fill="#2E2018"/>
+      <ellipse cx="555" cy="293" rx="15" ry="14" fill="#5A3A22"/>
+      <circle cx="550" cy="282" r="5.5" fill="#FFFFFF"/>
+      <circle cx="561" cy="295" r="3" fill="#FFFFFF"/>
+      <path d="M 532 276 Q 555 264 578 278" stroke="#1D120B" stroke-width="3.5" stroke-linecap="round" fill="none"/>
+    </g>
+
+    <!-- Nose & Smile -->
+    <path d="M 498 312 L 502 322 L 496 325" stroke="#CEAA90" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <path d="M 490 350 Q 500 358 510 350" stroke="#BF6060" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+  </g>
+</svg>

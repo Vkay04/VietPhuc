@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1500" width="1000" height="1500">
+  <defs>
+    <linearGradient id="skirtGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#242220"/>
+      <stop offset="50%" stop-color="#141312"/>
+      <stop offset="100%" stop-color="#282624"/>
+    </linearGradient>
+  </defs>
+
+  <!-- VÁY ĐỤP ĐEN KINH BẮC - CẠP EO Y: 760, GẤU MẮT CÁ CHÂN Y: 1410 -->
+  <g id="skirt-black">
+    <!-- Waistband at natural waist Y: 760 -->
+    <path d="M 405 760 Q 500 775 595 760 L 608 840 Q 500 860 392 840 Z" fill="#2E2B29" stroke="#1A1817" stroke-width="2"/>
+
+    <!-- A-line Pleated Skirt falling to ankles Y: 1410 (Phủ kín hoàn toàn vùng đũng Y: 960) -->
+    <path d="M 392 830 Q 340 1120 315 1410 Q 500 1440 685 1410 Q 660 1120 608 830 Z" fill="url(#skirtGrad)" stroke="#171514" stroke-width="3"/>
+
+    <!-- Pleats / Folds of cloth -->
+    <path d="M 430 850 Q 400 1130 380 1415" stroke="#383431" stroke-width="2.5" fill="none"/>
+    <path d="M 470 860 Q 460 1140 450 1420" stroke="#383431" stroke-width="2.5" fill="none"/>
+    <path d="M 500 865 Q 500 1150 500 1425" stroke="#383431" stroke-width="2" fill="none"/>
+    <path d="M 530 860 Q 540 1140 550 1420" stroke="#383431" stroke-width="2.5" fill="none"/>
+    <path d="M 570 850 Q 600 1130 620 1415" stroke="#383431" stroke-width="2.5" fill="none"/>
+  </g>
+</svg>

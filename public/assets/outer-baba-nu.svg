@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1500" width="1000" height="1500">
+  <defs>
+    <linearGradient id="baBaNuGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EC407A"/>
+      <stop offset="50%" stop-color="#D81B60"/>
+      <stop offset="100%" stop-color="#AD1457"/>
+    </linearGradient>
+    <linearGradient id="pocketTrim" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F8BBD0"/>
+      <stop offset="100%" stop-color="#F06292"/>
+    </linearGradient>
+  </defs>
+
+  <!-- ÁO BÀ BA NỮ (NAM BỘ) - KHỚP 100% TỈ LỆ THÂN NỮ -->
+  <g id="outer-baba-nu">
+    <!-- Sleeves (Bao trọn bờ vai X: 395-605 và nách, ôm sát tay tới cổ tay Y: 905) -->
+    <!-- Left Sleeve -->
+    <path d="M 388 470 Q 325 640 295 845 L 280 905 L 332 905 L 352 845 Q 380 660 425 520 Z" fill="url(#baBaNuGrad)" stroke="#880E4F" stroke-width="2"/>
+    <!-- Right Sleeve -->
+    <path d="M 612 470 Q 675 640 705 845 L 720 905 L 668 905 L 648 845 Q 620 660 575 520 Z" fill="url(#baBaNuGrad)" stroke="#880E4F" stroke-width="2"/>
+
+    <!-- Main Torso (Eo thon ôm gọn Y: 700, xòe lượn nhẹ qua hông Y: 850 đến gấu Y: 935) -->
+    <path d="M 460 440 L 388 470 Q 405 580 430 700 Q 400 800 395 935 Q 500 955 605 935 Q 600 800 570 700 Q 595 580 612 470 L 540 440 Z" fill="url(#baBaNuGrad)" stroke="#880E4F" stroke-width="2.5"/>
+
+    <!-- Round Neckline (Cổ tròn thoai thoải mềm mại) -->
+    <path d="M 460 440 Q 500 470 540 440 L 536 452 Q 500 482 464 452 Z" fill="#F8BBD0"/>
+
+    <!-- Center Button Line -->
+    <line x1="500" y1="468" x2="500" y2="940" stroke="#880E4F" stroke-width="2"/>
+
+    <!-- Buttons -->
+    <circle cx="500" cy="490" r="4.5" fill="#FFFFFF" stroke="#880E4F" stroke-width="1.5"/>
+    <circle cx="500" cy="550" r="4.5" fill="#FFFFFF" stroke="#880E4F" stroke-width="1.5"/>
+    <circle cx="500" cy="620" r="4.5" fill="#FFFFFF" stroke="#880E4F" stroke-width="1.5"/>
+    <circle cx="500" cy="700" r="4.5" fill="#FFFFFF" stroke="#880E4F" stroke-width="1.5"/>
+    <circle cx="500" cy="780" r="4.5" fill="#FFFFFF" stroke="#880E4F" stroke-width="1.5"/>
+    <circle cx="500" cy="860" r="4.5" fill="#FFFFFF" stroke="#880E4F" stroke-width="1.5"/>
+
+    <!-- Two Front Pockets (Hai túi vạt trước đặc trưng) -->
+    <!-- Left Pocket -->
+    <path d="M 415 820 L 460 820 Q 460 880 437 885 Q 415 880 415 820 Z" fill="url(#pocketTrim)" stroke="#880E4F" stroke-width="1.5"/>
+    <line x1="415" y1="835" x2="460" y2="835" stroke="#AD1457" stroke-width="1.5"/>
+    <!-- Right Pocket -->
+    <path d="M 540 820 L 585 820 Q 585 880 563 885 Q 540 880 540 820 Z" fill="url(#pocketTrim)" stroke="#880E4F" stroke-width="1.5"/>
+    <line x1="540" y1="835" x2="585" y2="835" stroke="#AD1457" stroke-width="1.5"/>
+
+    <!-- Side slits (Xẻ tà hông) -->
+    <path d="M 398 860 L 395 935" stroke="#FFFFFF" stroke-width="2"/>
+    <path d="M 602 860 L 605 935" stroke="#FFFFFF" stroke-width="2"/>
+  </g>
+</svg>

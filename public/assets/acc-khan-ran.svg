@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1500" width="1000" height="1500">
+  <defs>
+    <!-- Gingham Pattern for Khăn Rằn -->
+    <pattern id="gingham" width="20" height="20" patternUnits="userSpaceOnUse">
+      <rect width="20" height="20" fill="#FFFFFF"/>
+      <rect x="0" y="0" width="10" height="10" fill="#424242"/>
+      <rect x="10" y="10" width="10" height="10" fill="#424242"/>
+    </pattern>
+  </defs>
+
+  <!-- KHĂN RẰN NAM BỘ QUẤN CỔ / VẮT VAI -->
+  <g id="acc-khan-ran">
+    <!-- Loop behind neck -->
+    <path d="M 450 420 Q 500 460 550 420 L 565 440 Q 500 485 435 440 Z" fill="url(#gingham)" stroke="#212121" stroke-width="1.5"/>
+
+    <!-- Left Hanging End down chest -->
+    <path d="M 435 440 Q 420 600 410 820 L 445 825 Q 455 600 470 470 Z" fill="url(#gingham)" stroke="#212121" stroke-width="2"/>
+    <!-- Left Fringes (Tua chỉ ở đầu khăn) -->
+    <path d="M 410 825 L 405 845 M 418 825 L 415 845 M 428 825 L 428 845 M 438 825 L 440 845 M 445 825 L 448 845" stroke="#757575" stroke-width="2"/>
+
+    <!-- Right Hanging End draped over shoulder / chest -->
+    <path d="M 530 470 Q 545 600 555 780 L 520 785 Q 510 600 495 480 Z" fill="url(#gingham)" stroke="#212121" stroke-width="2"/>
+    <!-- Right Fringes -->
+    <path d="M 520 785 L 518 805 M 528 785 L 528 805 M 538 785 L 540 805 M 548 785 L 552 805 M 555 785 L 560 805" stroke="#757575" stroke-width="2"/>
+
+    <text x="500" y="520" font-family="'Comfortaa', sans-serif" font-size="12" fill="#424242" text-anchor="middle" font-weight="bold">Khăn Rằn Nam Bộ</text>
+  </g>
+</svg>

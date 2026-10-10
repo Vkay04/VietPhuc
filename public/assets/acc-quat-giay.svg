@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1500" width="1000" height="1500">
+  <defs>
+    <radialGradient id="fanPaperGrad" cx="50%" cy="100%" r="90%">
+      <stop offset="0%" stop-color="#FFF8E1"/>
+      <stop offset="70%" stop-color="#FFE082"/>
+      <stop offset="100%" stop-color="#FFD54F"/>
+    </radialGradient>
+  </defs>
+
+  <!-- QUẠT GIẤY / QUẠT TRẦM HƯƠNG CẦM TAY (BÊN TAY PHẢI) -->
+  <g id="acc-quat-giay">
+    <!-- Fan Ribs & Paper Folded Arc -->
+    <!-- Fan arc held around right hand coordinates (680-720, 850-930) -->
+    <path d="M 690 910 L 610 770 Q 700 710 790 770 L 710 910 Z" fill="url(#fanPaperGrad)" stroke="#B78103" stroke-width="2"/>
+
+    <!-- Bamboo/Wood Ribs -->
+    <line x1="700" y1="910" x2="610" y2="770" stroke="#795548" stroke-width="2.5"/>
+    <line x1="700" y1="910" x2="650" y2="745" stroke="#8D6E63" stroke-width="1.5"/>
+    <line x1="700" y1="910" x2="700" y2="735" stroke="#8D6E63" stroke-width="1.5"/>
+    <line x1="700" y1="910" x2="750" y2="745" stroke="#8D6E63" stroke-width="1.5"/>
+    <line x1="700" y1="910" x2="790" y2="770" stroke="#795548" stroke-width="2.5"/>
+
+    <!-- Red Silk Tassel hanging from fan handle -->
+    <circle cx="700" cy="915" r="5" fill="#D32F2F"/>
+    <path d="M 700 920 Q 695 960 690 990" stroke="#E53935" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="690" cy="992" r="4" fill="#FFCA28"/>
+
+    <!-- Caligraphy / Bird Motif on Fan -->
+    <path d="M 680 770 Q 700 760 720 775" stroke="#C2185B" stroke-width="2" fill="none"/>
+
+    <text x="700" y="700" font-family="'Comfortaa', sans-serif" font-size="12" fill="#8D6E63" text-anchor="middle" font-weight="bold">Quạt Trầm Hương</text>
+  </g>
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1500" width="1000" height="1500">
+  <defs>
+    <radialGradient id="yemCreamGrad" cx="50%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#FFFDF9"/>
+      <stop offset="60%" stop-color="#F5EFE6"/>
+      <stop offset="100%" stop-color="#EBE1D3"/>
+    </radialGradient>
+  </defs>
+
+  <!-- ÁO YẾM TRẮNG NGÀ THANH NHÃ -->
+  <g id="inner-yem-cream">
+    <!-- Neck straps (Dây yếm buộc cổ ôm sát cổ Y: 432) -->
+    <path d="M 472 432 Q 462 405 470 380" stroke="#E6DAC8" stroke-width="3" fill="none"/>
+    <path d="M 528 432 Q 538 405 530 380" stroke="#E6DAC8" stroke-width="3" fill="none"/>
+
+    <path d="M 460 435 Q 500 455 540 435 L 600 650 Q 500 840 500 840 Q 500 840 400 650 Z" fill="url(#yemCreamGrad)" stroke="#D8CABE" stroke-width="2.5"/>
+
+    <path d="M 400 650 Q 370 680 355 740" stroke="#E6DAC8" stroke-width="2.5" fill="none"/>
+    <path d="M 600 650 Q 630 680 645 740" stroke="#E6DAC8" stroke-width="2.5" fill="none"/>
+
+    <g transform="translate(500, 570)">
+      <path d="M 0 -22 C -12 -8 -16 8 0 20 C 16 8 12 -8 0 -22 Z" fill="#E0A96D" opacity="0.6"/>
+      <circle cx="0" cy="3" r="3" fill="#D4AF37"/>
+    </g>
+  </g>
+</svg>

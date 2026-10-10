@@ -1,0 +1,243 @@
+[
+  {
+    "id": "ao_ngu_than_tay_chen",
+    "ten": "Áo Ngũ Thân Tay Chẽn",
+    "gioi": "ca_hai",
+    "vung_mien": "Toàn quốc (Khởi phát từ Đàng Trong, thịnh hành thời Nguyễn)",
+    "thoi_ky": "Thời Chúa Nguyễn Phúc Khoát (1744) định hình và thời Vua Minh Mạng (1836) chuẩn hóa toàn quốc",
+    "dip_mac": [
+      "Tết cổ truyền",
+      "Lễ tốt nghiệp",
+      "Kỷ yếu",
+      "Lễ hội truyền thống",
+      "Đám cưới / Hỷ sự",
+      "Dạo phố / Trà chiều"
+    ],
+    "nguon_goc": "Năm 1744, Chúa Nguyễn Phúc Khoát ban hành quy định trang phục Đàng Trong để phân biệt với Đàng Ngoài, tạo lập tiền thân của áo ngũ thân. Đến thời vua Minh Mạng (năm 1836 - 1837), triều đình thực hiện chính sách 'nhất thống y phục', áo ngũ thân cổ đứng cài năm khuy trở thành quốc phục của cả nam lẫn nữ từ bắc chí nam.",
+    "y_nghia": "Kết cấu 5 thân tượng trưng cho đạo lý Tứ Thân Phụ Mẫu (cha mẹ đẻ và cha mẹ chồng/vợ) nâng đỡ thân con thứ 5 ở giữa (người mặc). 5 cúc áo tượng trưng cho Ngũ Thường: Nhân, Nghĩa, Lễ, Trí, Tín. Cổ áo đứng ngay ngắn răn dạy cốt cách chính trực, khiêm cung, kín đáo.",
+    "mau_hop": [
+      "Xanh chàm (Lam)",
+      "Đỏ chu sa / Yên chi",
+      "Vàng hoàng yến",
+      "Tím hoa cà (Huế)",
+      "Xanh lục ngọc",
+      "Trắng ngà / Ngũ sắc nhã nhặn"
+    ],
+    "phu_kien_hop": [
+      "Khăn đóng / Khăn xếp (quấn chữ Nhân hoặc Nhất)",
+      "Quần lụa trắng hoặc đen ống rộng",
+      "Hài cong / Guốc mộc vồng",
+      "Quạt giấy trầm hương / Quạt lụa",
+      "Kiềng bạc (đối với nữ)"
+    ],
+    "loi_phoi_can_tranh": [
+      "Không mặc áo lót bên trong để hở da thịt ở cổ hoặc ngực",
+      "Không kết hợp với nón quai thao (nón quai thao thuộc về áo tứ thân Bắc Bộ)",
+      "Không để phanh ngực hay bỏ khuy bừa bãi khi tham gia lễ nghi trang trọng",
+      "Tránh kết hợp với dép lào hoặc giày thể thao quá hầm hố bụi bặm trong không gian thờ tự lễ bái"
+    ],
+    "nguon_tham_khao": [
+      "Trần Quang Đức (2013), 'Ngàn năm áo mũ', NXB Thế Giới",
+      "Đại Nam thực lục (Quốc sử quán triều Nguyễn)",
+      "Nghiên cứu của Trung tâm Bảo tồn Di tích Cố đô Huế"
+    ],
+    "can_xac_minh": false
+  },
+  {
+    "id": "ao_tac",
+    "ten": "Áo Tấc (Áo Ngũ Thân Tay Thụng)",
+    "gioi": "ca_hai",
+    "vung_mien": "Cung đình Huế & Lan tỏa toàn quốc",
+    "thoi_ky": "Thời Nguyễn (Thế kỷ 19 - 20)",
+    "dip_mac": [
+      "Lễ tốt nghiệp",
+      "Tết cổ truyền",
+      "Kỷ yếu",
+      "Đám cưới / Hỷ sự",
+      "Lễ hội truyền thống"
+    ],
+    "nguon_goc": "Là dạng lễ phục trang trọng bậc nhất trong hệ thống áo ngũ thân triều Nguyễn. Đặc trưng bởi phần ống tay dài và thụng rộng ('tấc' chỉ độ rộng của tay áo đo bằng tấc thời xưa). Được vua chúa, quan lại, sĩ tử và thứ dân mặc trong mọi dịp trọng thể như lễ bái gia tiên, lễ triều hội, cưới hỏi, lễ tốt nghiệp Nho học.",
+    "y_nghia": "Khi hành lễ, người mặc chắp hai tay lại tạo nên tư thế 'tác bái' trang nghiêm, tà áo thụng rủ xuống thể hiện sự tôn nghiêm, bao dung, lễ nghĩa và tĩnh tại của văn hóa Á Đông.",
+    "mau_hop": [
+      "Đỏ thắm / Yên chi (Hỷ sự)",
+      "Xanh thiên thanh / Xanh ngọc",
+      "Tím huế",
+      "Vàng sẫm / Mỡ gà",
+      "Đen tuyền / Xanh cổ vịt (cho nam trọng tuổi)"
+    ],
+    "phu_kien_hop": [
+      "Khăn đóng / Khăn xếp truyền thống",
+      "Chuỗi hạt ngọc / Kiềng bạc chạm hoa mai",
+      "Hài thêu hoa sen / Guốc mộc gót vồng",
+      "Quạt xếp gấm hoặc quạt ngà chạm trổ"
+    ],
+    "loi_phoi_can_tranh": [
+      "Không đi chân đất hoặc đi dép xỏ ngón khi mặc áo tấc hành lễ",
+      "Tuyệt đối không xắn tay áo thụng lên cộc cỡn làm biến dạng phom dáng lễ phục",
+      "Không phối với quần jean bó sát hoặc váy ngắn",
+      "Tránh đội mũ lưỡi trai hoặc kính mát phản quang sặc sỡ trong nghi lễ trang trọng"
+    ],
+    "nguon_tham_khao": [
+      "Khâm định Đại Nam hội điển sự lệ",
+      "Trần Quang Đức (2013), 'Ngàn năm áo mũ', NXB Thế Giới",
+      "Tài liệu Hội Phục dựng Cổ phục Việt Nam (Vietnam Centre)"
+    ],
+    "can_xac_minh": false
+  },
+  {
+    "id": "ao_tu_than",
+    "ten": "Áo Tứ Thân",
+    "gioi": "nu",
+    "vung_mien": "Đồng bằng Bắc Bộ",
+    "thoi_ky": "Thịnh hành từ thời Lê qua thời Nguyễn đến đầu thế kỷ 20",
+    "dip_mac": [
+      "Lễ hội truyền thống",
+      "Tết cổ truyền",
+      "Kỷ yếu",
+      "Biểu diễn nghệ thuật"
+    ],
+    "nguon_goc": "Gắn liền với hình ảnh người phụ nữ lao động và thiếu nữ Kinh Bắc vùng châu thổ sông Hồng. Áo dài quá gối, xẻ tà thành 4 vạt (2 vạt trước buộc vắt chéo trước bụng, 2 vạt sau khâu liền thành sống lưng). Thường đi cùng áo yếm, váy đụp và thắt lưng lụa.",
+    "y_nghia": "Bốn vạt áo tượng trưng cho tứ thân phụ mẫu (cha mẹ nàng dâu và cha mẹ chàng rể). Vạt yếm đào ôm ấp sự e ấp dịu dàng; dải thắt lưng xanh/hồng buông lơi thắt nút tượng trưng cho sự gắn bó sắt son đôi lứa. Bộ trang phục vừa tôn dáng thanh tao, vừa thuận tiện cho đời sống nông nghiệp lúa nước.",
+    "mau_hop": [
+      "Nâu sồng / Nâu gụ (lớp áo ngoài mộc mạc)",
+      "Hồng sen / Hồng cánh sen",
+      "Đỏ yếm đào / Hoa đào",
+      "Xanh hoa lý / Xanh nõn chuối (dải lụa thắt lưng)",
+      "Đen huyền (Váy đụp)"
+    ],
+    "phu_kien_hop": [
+      "Nón quai thao (nón Ba Tầm)",
+      "Khăn mỏ quạ (vải chàm hoặc lụa đen)",
+      "Yếm đào hoặc yếm hoa sen bên trong",
+      "Thắt lưng lụa xanh hoa lý / ruột tượng",
+      "Guốc mộc quai da vồng"
+    ],
+    "loi_phoi_can_tranh": [
+      "Không mặc áo tứ thân mà bỏ qua áo yếm bên trong",
+      "Không kết hợp với khăn rằn Nam Bộ (sai lệch vùng miền văn hóa)",
+      "Không mặc quần tây ống côn hay quần âu hiện đại thay cho váy đụp hoặc quần lụa đen rộng",
+      "Tránh buông thả vạt áo lôi thôi xộc xệch không thắt đai lưng"
+    ],
+    "nguon_tham_khao": [
+      "Đoàn Thị Tình (2006), 'Trang phục Việt Nam qua các thời đại', NXB Mỹ Thuật",
+      "Từ điển Lễ hội Truyền thống Việt Nam",
+      "Bảo tàng Phụ nữ Việt Nam"
+    ],
+    "can_xac_minh": false
+  },
+  {
+    "id": "ao_ba_ba",
+    "ten": "Áo Bà Ba",
+    "gioi": "ca_hai",
+    "vung_mien": "Nam Bộ (Tây Nam Bộ & Đông Nam Bộ)",
+    "thoi_ky": "Xuất hiện vào khoảng thế kỷ 19, phổ biến mạnh mẽ suốt thế kỷ 20 đến nay",
+    "dip_mac": [
+      "Lễ hội truyền thống",
+      "Dạo phố / Trà chiều",
+      "Kỷ yếu",
+      "Biểu diễn nghệ thuật",
+      "Tết cổ truyền"
+    ],
+    "nguon_goc": "Nguồn gốc có giả thuyết liên quan đến trang phục của người Baba-Nyonya (vùng eo biển Malacca du nhập qua thương cảng miền Tây) hoặc cách tân từ áo cánh phương Bắc qua bàn tay cải tiến của nhà văn hóa Trương Vĩnh Ký. Áo xẻ giữa cài nút, không cổ (cổ tròn hoặc cổ tim nông), vạt xẻ hai bên hông với hai túi phía trước.",
+    "y_nghia": "Biểu tượng của tính cách người Nam Bộ: chân chất, hào sảng, phóng khoáng, chịu thương chịu khó. Chiếc áo ôm vừa vặn, mềm mại theo nhịp chèo xuồng ghe bến nước miệt vườn.",
+    "mau_hop": [
+      "Đen tuyền / Nâu gụ (vải ú, vải láng cổ truyền)",
+      "Hồng phấn / Hồng cánh sen (cách tân nữ)",
+      "Xanh ngọc bích / Xanh lá mạ",
+      "Trắng tinh khôi (áo bà ba lụa nữ)",
+      "Vàng tơ tằm"
+    ],
+    "phu_kien_hop": [
+      "Khăn rằn sọc ca-rô đen trắng hoặc đỏ trắng quấn cổ",
+      "Nón lá chóp miền Tây (nón lá bài thơ hoặc nón chóp)",
+      "Quần lụa đen hoặc xuyến đen ống suông rộng",
+      "Guốc mộc hoặc dép xuồng mộc mạc"
+    ],
+    "loi_phoi_can_tranh": [
+      "Không đội nón quai thao Bắc Bộ khi mặc áo bà ba (sai lệch địa lý và văn hóa trầm trọng)",
+      "Không kết hợp với khăn đóng triều đình Huế sang trọng trong bối cảnh dân dã thôn dã",
+      "Tránh chiết eo quá bó sát làm mất tính phóng khoáng thanh lịch tự nhiên của tà áo",
+      "Không mang giày da bóng gót nhọn dự tiệc phương Tây cùng áo bà ba lụa nâu sồng"
+    ],
+    "nguon_tham_khao": [
+      "Sơn Nam, 'Văn minh Miệt Vườn' & 'Đất Gia Định xưa'",
+      "Nguyễn Đổng Chi, 'Việt Nam phong tục khảo'",
+      "Bảo tàng Cần Thơ & Bảo tàng Áo dài TP.HCM"
+    ],
+    "can_xac_minh": false
+  },
+  {
+    "id": "ao_dai_tan_thoi_hoc_sinh",
+    "ten": "Áo Dài Tân Thời / Nữ Sinh & Thanh Niên",
+    "gioi": "ca_hai",
+    "vung_mien": "Toàn quốc",
+    "thoi_ky": "Thập niên 1930 (Le Mur Cát Tường, Lê Phổ) phát triển liên tục đến hiện đại",
+    "dip_mac": [
+      "Lễ tốt nghiệp",
+      "Kỷ yếu",
+      "Tết cổ truyền",
+      "Đám cưới / Hỷ sự",
+      "Dạo phố / Trà chiều"
+    ],
+    "nguon_goc": "Phát triển từ áo ngũ thân truyền thống vào những năm 1930 dưới trào lưu cách tân của họa sĩ Cát Tường (Lemur) và họa sĩ Lê Phổ tại Hà Nội. Tà áo được thu hẹp còn hai vạt trước - sau, tôn lên đường cong thanh xuân của người phụ nữ Việt Nam, trở thành biểu tượng quốc phục đương đại.",
+    "y_nghia": "Đại diện cho vẻ đẹp duyên dáng, thuần khiết của tuổi trẻ học trò, niềm tự hào tri thức và tinh thần văn hóa dân tộc giao thoa cùng nhịp thở thời đại mới.",
+    "mau_hop": [
+      "Trắng tinh khôi (Kỷ yếu, Nữ sinh)",
+      "Hồng pastel / Đào thắm",
+      "Xanh dương pastel / Xanh bạc hà",
+      "Đỏ nhung / Đỏ đô (Tết, Lễ tốt nghiệp)",
+      "Vàng hoàng yến tươi sáng"
+    ],
+    "phu_kien_hop": [
+      "Nón lá búp sen / Nón lá vẽ cảnh quê hương",
+      "Băng đô / Mấn cách tân hoa cài",
+      "Túi cói mộc mạc hoặc túi tote Gen Z",
+      "Giày búp bê / Giày cao gót thanh lịch / Sneaker trắng năng động (phong cách Gen Z)",
+      "Hoa sen cầm tay / Bằng tốt nghiệp"
+    ],
+    "loi_phoi_can_tranh": [
+      "Không mặc nội y màu sắc tương phản sặc sỡ làm lộ qua lớp vải áo dài trắng",
+      "Không mặc quần short, quần cộc hoặc xẻ tà hở lườn quá đà phản cảm",
+      "Tránh cử chỉ thô lỗ, ngồi co chân khi mặc tà áo dài thanh lịch nơi học đường"
+    ],
+    "nguon_tham_khao": [
+      "Phạm Thảo Châu, 'Lịch sử phát triển Áo dài Việt Nam thế kỷ 20'",
+      "Bảo tàng Áo dài Việt Nam (Sĩ Hoàng)"
+    ],
+    "can_xac_minh": false
+  },
+  {
+    "id": "ao_giao_linh_hoc_si",
+    "ten": "Áo Giao Lĩnh (Cổ Tréo)",
+    "gioi": "ca_hai",
+    "vung_mien": "Bắc Bộ & Trung Bộ",
+    "thoi_ky": "Thời Lý - Trần - Lê (Tiền thân trước thế kỷ 18)",
+    "dip_mac": [
+      "Lễ hội truyền thống",
+      "Biểu diễn nghệ thuật",
+      "Kỷ yếu"
+    ],
+    "nguon_goc": "Dạng áo cổ tréo vắt vạt sang bên phải, rất phổ biến ở tầng lớp sĩ phu, nho sinh và quý tộc Đại Việt thời Lý - Trần - Lê. Về sau khi chúa Nguyễn Phúc Khoát ban sắc dụ năm 1744 thì dần được thay thế bằng áo ngũ thân cổ đứng cài khuy.",
+    "y_nghia": "Tượng trưng cho sự phóng khoáng, phong thái thanh cao thoát tục của kẻ sĩ Đạo học, nét cổ kính thâm trầm của văn minh Đại Việt thời quân chủ trung đại.",
+    "mau_hop": [
+      "Xanh lam thẫm / Chàm",
+      "Trắng tuyết / Trắng ngà",
+      "Đen huyền",
+      "Đỏ điều / Đỏ gạch"
+    ],
+    "phu_kien_hop": [
+      "Khăn buộc đầu Nho sinh / Mũ cánh chuồn",
+      "Đai lưng lụa thắt hoa thị",
+      "Thẻ bài / Ngọc bội treo eo",
+      "Quạt xếp giấy mộc"
+    ],
+    "loi_phoi_can_tranh": [
+      "Không vắt vạt áo sang bên trái (vắt sang trái theo cổ lễ là nếp áo người đã khuất hoặc phong tục ngoại tộc)",
+      "Không mang phụ kiện hiện đại bằng nhựa sặc sỡ phá vỡ phong cách thư sinh cổ kính"
+    ],
+    "nguon_tham_khao": [
+      "Trần Quang Đức (2013), 'Ngàn năm áo mũ', NXB Thế Giới"
+    ],
+    "can_xac_minh": true
+  }
+]

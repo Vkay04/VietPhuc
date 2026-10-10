@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1500" width="1000" height="1500">
+  <defs>
+    <linearGradient id="baBaNamGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4E342E"/>
+      <stop offset="50%" stop-color="#3E2723"/>
+      <stop offset="100%" stop-color="#271815"/>
+    </linearGradient>
+  </defs>
+
+  <!-- ÁO BÀ BA NAM (NAM BỘ) - KHỚP 100% TỈ LỆ THÂN NAM -->
+  <g id="outer-baba-nam">
+    <!-- Sleeves (Bao bọc bờ vai nam X: 380-620 và nách, ôm tới cổ tay Y: 905) -->
+    <!-- Left Sleeve -->
+    <path d="M 375 470 Q 320 640 290 845 L 275 905 L 327 905 L 347 845 Q 375 660 410 520 Z" fill="url(#baBaNamGrad)" stroke="#1B100E" stroke-width="2"/>
+    <!-- Right Sleeve -->
+    <path d="M 625 470 Q 680 640 710 845 L 725 905 L 673 905 L 653 845 Q 625 660 590 520 Z" fill="url(#baBaNamGrad)" stroke="#1B100E" stroke-width="2"/>
+
+    <!-- Torso (Thẳng thắn, phóng khoáng qua hông Y: 850 đến gấu Y: 955) -->
+    <path d="M 460 440 L 375 470 Q 395 580 415 720 Q 395 820 390 945 Q 500 965 610 945 Q 605 820 585 720 Q 605 580 625 470 L 540 440 Z" fill="url(#baBaNamGrad)" stroke="#1B100E" stroke-width="2.5"/>
+
+    <!-- Round Collar -->
+    <path d="M 460 440 Q 500 468 540 440 L 536 452 Q 500 480 464 452 Z" fill="#6D4C41"/>
+
+    <!-- Center Button Line -->
+    <line x1="500" y1="465" x2="500" y2="955" stroke="#1B100E" stroke-width="2.5"/>
+
+    <!-- Buttons -->
+    <circle cx="500" cy="490" r="5" fill="#BCAAA4" stroke="#1B100E" stroke-width="1.5"/>
+    <circle cx="500" cy="560" r="5" fill="#BCAAA4" stroke="#1B100E" stroke-width="1.5"/>
+    <circle cx="500" cy="640" r="5" fill="#BCAAA4" stroke="#1B100E" stroke-width="1.5"/>
+    <circle cx="500" cy="720" r="5" fill="#BCAAA4" stroke="#1B100E" stroke-width="1.5"/>
+    <circle cx="500" cy="800" r="5" fill="#BCAAA4" stroke="#1B100E" stroke-width="1.5"/>
+    <circle cx="500" cy="880" r="5" fill="#BCAAA4" stroke="#1B100E" stroke-width="1.5"/>
+
+    <!-- Two Lower Pockets -->
+    <path d="M 410 820 L 460 820 Q 460 890 435 895 Q 410 890 410 820 Z" fill="#3E2723" stroke="#1B100E" stroke-width="1.5"/>
+    <path d="M 540 820 L 590 820 Q 590 890 565 895 Q 540 890 540 820 Z" fill="#3E2723" stroke="#1B100E" stroke-width="1.5"/>
+  </g>
+</svg>

@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1500" width="1000" height="1500">
+  <defs>
+    <linearGradient id="aoTacGradNam" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E88E5"/>
+      <stop offset="50%" stop-color="#1565C0"/>
+      <stop offset="100%" stop-color="#0D47A1"/>
+    </linearGradient>
+    <linearGradient id="brocadeSilver" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ECEFF1"/>
+      <stop offset="50%" stop-color="#CFD8DC"/>
+      <stop offset="100%" stop-color="#B0BEC5"/>
+    </linearGradient>
+  </defs>
+
+  <!-- ÁO TẤC NAM (LỄ PHỤC TAY THỤNG) - KHỚP 100% TỈ LỆ THÂN NAM -->
+  <g id="outer-aotac-nam">
+    <!-- Back Hem Shadow -->
+    <path d="M 370 700 Q 310 1050 325 1355 Q 500 1385 675 1355 Q 690 1050 630 700 Z" fill="#0A316E" opacity="0.5"/>
+
+    <!-- Wide Flowing Sleeves (Tay Thụng Nam che kín vai X: 380-620 và nách) -->
+    <!-- Left Sleeve -->
+    <path d="M 375 470 Q 220 540 165 820 Q 155 980 190 1060 Q 275 1050 325 940 L 365 650 L 410 520 Z" fill="url(#aoTacGradNam)" stroke="#0D47A1" stroke-width="2.5"/>
+    <!-- Right Sleeve -->
+    <path d="M 625 470 Q 780 540 835 820 Q 845 980 810 1060 Q 725 1050 675 940 L 635 650 L 590 520 Z" fill="url(#aoTacGradNam)" stroke="#0D47A1" stroke-width="2.5"/>
+
+    <!-- Sleeve Trim -->
+    <path d="M 165 820 Q 155 980 190 1060 L 210 1055 Q 180 980 190 825 Z" fill="url(#brocadeSilver)"/>
+    <path d="M 835 820 Q 845 980 810 1060 L 790 1055 Q 820 980 810 825 Z" fill="url(#brocadeSilver)"/>
+
+    <!-- Main Body & Robe Flaps (Bao bọc bờ vai nam X: 380-620, eo Y: 700-720, hông Y: 850 đến gấu Y: 1355) -->
+    <path d="M 466 466 L 375 470 Q 345 700 340 1050 Q 330 1280 340 1355 Q 500 1385 660 1355 Q 670 1280 660 1050 Q 655 700 625 470 L 534 466 Z" fill="url(#aoTacGradNam)" stroke="#0A316E" stroke-width="3"/>
+
+    <!-- Standing Collar (Cổ đứng ôm gốc cổ Y: 424, nằm ngay bên dưới cằm Y: 420) -->
+    <path d="M 466 424 L 466 466 Q 500 480 534 466 L 534 424 Q 500 422 466 424 Z" fill="#0D47A1" stroke="url(#brocadeSilver)" stroke-width="3"/>
+
+    <!-- 5 Traditional Knots -->
+    <circle cx="532" cy="436" r="5.5" fill="#FFE082" stroke="#455A64" stroke-width="1.5"/>
+    <circle cx="532" cy="466" r="5.5" fill="#FFE082" stroke="#455A64" stroke-width="1.5"/>
+    <circle cx="548" cy="515" r="5.5" fill="#FFE082" stroke="#455A64" stroke-width="1.5"/>
+    <circle cx="568" cy="565" r="5.5" fill="#FFE082" stroke="#455A64" stroke-width="1.5"/>
+    <circle cx="580" cy="630" r="5.5" fill="#FFE082" stroke="#455A64" stroke-width="1.5"/>
+
+    <!-- Overlapping Curve of the Right Flap -->
+    <path d="M 534 466 Q 575 520 580 630 Q 570 950 560 1365" stroke="#0A316E" stroke-width="2.5" fill="none"/>
+
+    <!-- Hem Border -->
+    <path d="M 340 1355 Q 500 1385 660 1355 L 660 1365 Q 500 1395 340 1365 Z" fill="url(#brocadeSilver)"/>
+  </g>
+</svg>

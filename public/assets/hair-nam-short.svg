@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1500" width="1000" height="1500">
+  <defs>
+    <radialGradient id="hairNamShortGrad" cx="45%" cy="30%" r="60%">
+      <stop offset="0%" stop-color="#3A2C26"/>
+      <stop offset="60%" stop-color="#1E1410"/>
+      <stop offset="100%" stop-color="#100A08"/>
+    </radialGradient>
+  </defs>
+  <!-- TÓC NGẮN THANH LỊCH (NAM) -->
+  <g id="hair-nam-short">
+    <!-- Volume on top (Wraps head top cleanly from Y: 145) -->
+    <path d="M 378 270 Q 378 145 500 140 Q 622 145 622 270 Q 610 235 595 235 Q 560 210 500 210 Q 440 210 405 235 Q 390 235 378 270 Z" fill="url(#hairNamShortGrad)"/>
+    <!-- Anime Spikes -->
+    <path d="M 430 175 Q 440 135 460 160" stroke="#4D3B33" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <path d="M 480 155 Q 500 130 520 155" stroke="#4D3B33" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <path d="M 535 160 Q 555 140 565 180" stroke="#4D3B33" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <!-- Sideburns -->
+    <path d="M 388 260 L 388 320 L 400 300 Z" fill="#1E1410"/>
+    <path d="M 612 260 L 612 320 L 600 300 Z" fill="#1E1410"/>
+    <!-- Bangs -->
+    <path d="M 405 235 Q 430 255 450 230 Q 470 260 500 225 Q 525 260 550 230 Q 575 255 595 235 Q 550 205 500 205 Q 450 205 405 235 Z" fill="url(#hairNamShortGrad)"/>
+  </g>
+</svg>

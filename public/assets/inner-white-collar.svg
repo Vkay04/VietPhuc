@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1500" width="1000" height="1500">
+  <defs>
+    <linearGradient id="innerCollarGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F2EFEA"/>
+      <stop offset="50%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#ECE7DF"/>
+    </linearGradient>
+  </defs>
+
+  <!-- ÁO LÓT CỔ ĐỨNG TRẮNG (CỔ BẠCH LẠP NỘI PHỤC NGŨ THÂN) -->
+  <g id="inner-white-collar">
+    <!-- Standing White Collar resting cleanly at base of neck below chin Y: 420 -->
+    <path d="M 466 422 L 466 464 Q 500 478 534 464 L 534 422 Q 500 422 466 422 Z" fill="url(#innerCollarGrad)" stroke="#D4CCC0" stroke-width="2"/>
+    <circle cx="530" cy="442" r="3" fill="#D4AF37"/>
+
+    <!-- Chest & Torso coverage down to waist Y: 760 -->
+    <path d="M 425 464 Q 500 480 575 464 L 575 760 Q 500 780 425 760 Z" fill="url(#innerCollarGrad)" stroke="#DFD7CB" stroke-width="1.5"/>
+  </g>
+</svg>

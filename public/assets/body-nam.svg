@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1500" width="1000" height="1500">
+  <defs>
+    <radialGradient id="skinGradNam" cx="50%" cy="35%" r="60%">
+      <stop offset="0%" stop-color="#FFFBF5"/>
+      <stop offset="60%" stop-color="#FCEAD6"/>
+      <stop offset="100%" stop-color="#F5D3B8"/>
+    </radialGradient>
+    <filter id="softGlowNam" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#4A3B32" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+
+  <!-- LAYER 2: THÂN NGƯỜI NAM (BODY-BASE - TỪ CỔ XUỐNG CHÂN) -->
+  <g id="body-nam" filter="url(#softGlowNam)">
+    <!-- Base Paper Doll Stand Tab -->
+    <path d="M 450 1475 L 550 1475 L 530 1495 L 470 1495 Z" fill="#E6D7C3" stroke="#C8B8A2" stroke-width="2"/>
+
+    <!-- Full Neck Base (reaches up to Y: 380) -->
+    <path d="M 466 380 L 466 475 L 534 475 L 534 380 Z" fill="url(#skinGradNam)" stroke="#DEBEA6" stroke-width="2"/>
+    <path d="M 460 455 Q 500 472 540 455" stroke="#CEAA90" stroke-width="2" fill="none"/>
+
+    <!-- Legs & Feet -->
+    <!-- Left Leg -->
+    <path d="M 415 880 Q 425 1150 430 1390 L 415 1445 Q 432 1458 458 1450 L 468 1390 Q 478 1150 495 960 Q 450 920 415 880 Z" fill="url(#skinGradNam)" stroke="#DEBEA6" stroke-width="2.5"/>
+    <!-- Right Leg -->
+    <path d="M 585 880 Q 575 1150 570 1390 L 585 1445 Q 568 1458 542 1450 L 532 1390 Q 522 1150 505 960 Q 550 920 585 880 Z" fill="url(#skinGradNam)" stroke="#DEBEA6" stroke-width="2.5"/>
+
+    <!-- Torso (Shoulders 380-620, Waist 425-575, Hips 410-590) -->
+    <path d="M 380 475 Q 400 580 425 720 Q 405 800 410 880 Q 445 960 500 960 Q 555 960 590 880 Q 595 800 575 720 Q 600 580 620 475 Z" fill="url(#skinGradNam)" stroke="#DEBEA6" stroke-width="2.5"/>
+
+    <!-- Undergarments -->
+    <path d="M 425 680 Q 500 700 575 680 L 575 800 Q 500 815 425 800 Z" fill="#EEF2F6" stroke="#D3DDE6" stroke-width="1.5"/>
+    <path d="M 425 800 Q 500 815 575 800 Q 590 890 550 925 Q 500 900 450 925 Q 410 890 425 800 Z" fill="#EEF2F6" stroke="#D3DDE6" stroke-width="1.5"/>
+
+    <!-- Arms -->
+    <!-- Left Arm -->
+    <path d="M 380 475 Q 330 640 305 840 L 285 905 Q 278 925 298 930 Q 315 930 322 905 L 342 840 Q 370 660 410 520 Z" fill="url(#skinGradNam)" stroke="#DEBEA6" stroke-width="2.5"/>
+    <!-- Right Arm -->
+    <path d="M 620 475 Q 670 640 695 840 L 715 905 Q 722 925 702 930 Q 685 930 678 905 L 658 840 Q 630 660 590 520 Z" fill="url(#skinGradNam)" stroke="#DEBEA6" stroke-width="2.5"/>
+  </g>
+</svg>

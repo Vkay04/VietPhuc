@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1500" width="1000" height="1500">
+  <defs>
+    <linearGradient id="nguThanNuGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#43A047"/>
+      <stop offset="50%" stop-color="#2E7D32"/>
+      <stop offset="100%" stop-color="#1B5E20"/>
+    </linearGradient>
+    <linearGradient id="goldTrimNu" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF59D"/>
+      <stop offset="100%" stop-color="#FBC02D"/>
+    </linearGradient>
+  </defs>
+
+  <!-- ÁO NGŨ THÂN TAY CHẼN (NỮ) - KHỚP 100% TỈ LỆ THÂN NỮ -->
+  <g id="outer-nguthan-nu">
+    <!-- Fitted Chẽn Sleeves (Ôm sát cánh tay, che trọn nách vai, dừng chuẩn tại cổ tay Y: 905) -->
+    <!-- Left Sleeve -->
+    <path d="M 388 472 Q 325 640 295 845 L 280 905 L 332 905 L 352 845 Q 380 660 425 520 Z" fill="url(#nguThanNuGrad)" stroke="#1B5E20" stroke-width="2.5"/>
+    <path d="M 280 905 L 332 905 L 330 895 L 282 895 Z" fill="url(#goldTrimNu)"/>
+
+    <!-- Right Sleeve -->
+    <path d="M 612 472 Q 675 640 705 845 L 720 905 L 668 905 L 648 845 Q 620 660 575 520 Z" fill="url(#nguThanNuGrad)" stroke="#1B5E20" stroke-width="2.5"/>
+    <path d="M 720 905 L 668 905 L 670 895 L 718 895 Z" fill="url(#goldTrimNu)"/>
+
+    <!-- Body & Flaps (Bao bọc trọn vai X: 395-605, eo thu Y: 700, xòe rủ theo hông Y: 850 đến gấu Y: 1350) -->
+    <path d="M 466 466 L 388 472 Q 360 700 355 1050 Q 345 1250 350 1350 Q 500 1375 650 1350 Q 655 1250 645 1050 Q 640 700 612 472 L 534 466 Z" fill="url(#nguThanNuGrad)" stroke="#1B5E20" stroke-width="2.5"/>
+
+    <!-- Standing Collar (Cổ đứng ôm gốc cổ Y: 424-426, nằm ngay bên dưới cằm Y: 420) -->
+    <path d="M 466 424 L 466 466 Q 500 480 534 466 L 534 424 Q 500 422 466 424 Z" fill="#2E7D32" stroke="url(#goldTrimNu)" stroke-width="3"/>
+
+    <!-- 5 Buttons (Ngũ Thường: Nhân - Lễ - Nghĩa - Trí - Tín) -->
+    <circle cx="532" cy="436" r="5" fill="url(#goldTrimNu)" stroke="#3E2723" stroke-width="1.5"/>
+    <circle cx="532" cy="466" r="5" fill="url(#goldTrimNu)" stroke="#3E2723" stroke-width="1.5"/>
+    <circle cx="548" cy="515" r="5" fill="url(#goldTrimNu)" stroke="#3E2723" stroke-width="1.5"/>
+    <circle cx="568" cy="565" r="5" fill="url(#goldTrimNu)" stroke="#3E2723" stroke-width="1.5"/>
+    <circle cx="580" cy="630" r="5" fill="url(#goldTrimNu)" stroke="#3E2723" stroke-width="1.5"/>
+
+    <!-- Right Flap seam (Đường ráp vạt nách phải lượn eo) -->
+    <path d="M 534 466 Q 575 520 580 630 Q 570 950 560 1360" stroke="#1B5E20" stroke-width="2" fill="none"/>
+  </g>
+</svg>

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1500" width="1000" height="1500">
+  <defs>
+    <linearGradient id="sneakerWhite" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#EEEEEE"/>
+    </linearGradient>
+  </defs>
+
+  <!-- GIÀY SNEAKER TRẮNG GEN Z NĂNG ĐỘNG -->
+  <g id="acc-sneaker">
+    <!-- Left Sneaker (foot around 415-465, 1420-1460) -->
+    <!-- Chunky Rubber Sole -->
+    <path d="M 405 1450 L 465 1450 Q 470 1465 460 1468 L 400 1468 Q 395 1460 405 1450 Z" fill="#E0E0E0" stroke="#9E9E9E" stroke-width="2"/>
+    <!-- Leather Upper -->
+    <path d="M 410 1415 Q 425 1410 445 1418 L 465 1448 L 405 1448 Z" fill="url(#sneakerWhite)" stroke="#757575" stroke-width="2"/>
+    <!-- Laces & Swoosh detail -->
+    <line x1="425" y1="1425" x2="435" y2="1425" stroke="#424242" stroke-width="2"/>
+    <line x1="428" y1="1433" x2="438" y2="1433" stroke="#424242" stroke-width="2"/>
+    <path d="M 415 1438 Q 430 1445 450 1435" stroke="#E53935" stroke-width="2.5" fill="none"/>
+
+    <!-- Right Sneaker (foot around 535-585, 1420-1460) -->
+    <!-- Chunky Sole -->
+    <path d="M 535 1450 L 595 1450 Q 605 1460 600 1468 L 540 1468 Q 530 1465 535 1450 Z" fill="#E0E0E0" stroke="#9E9E9E" stroke-width="2"/>
+    <!-- Leather Upper -->
+    <path d="M 555 1418 Q 575 1410 590 1415 L 595 1448 L 535 1448 Z" fill="url(#sneakerWhite)" stroke="#757575" stroke-width="2"/>
+    <!-- Laces & Swoosh -->
+    <line x1="565" y1="1425" x2="575" y2="1425" stroke="#424242" stroke-width="2"/>
+    <line x1="562" y1="1433" x2="572" y2="1433" stroke="#424242" stroke-width="2"/>
+    <path d="M 550 1435 Q 570 1445 585 1438" stroke="#E53935" stroke-width="2.5" fill="none"/>
+
+    <text x="500" y="1485" font-family="'Comfortaa', sans-serif" font-size="12" fill="#757575" text-anchor="middle" font-weight="bold">Sneaker Gen Z</text>
+  </g>
+</svg>

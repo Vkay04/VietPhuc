@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1500" width="1000" height="1500">
+  <defs>
+    <linearGradient id="aoDaiNuGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E91E63"/>
+      <stop offset="50%" stop-color="#D81B60"/>
+      <stop offset="100%" stop-color="#C2185B"/>
+    </linearGradient>
+    <linearGradient id="aoDaiGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.2"/>
+      <stop offset="50%" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.15"/>
+    </linearGradient>
+  </defs>
+
+  <!-- ÁO DÀI TÂN THỜI NỮ - KHỚP 100% TỈ LỆ THÂN NỮ -->
+  <g id="outer-aodai-nu">
+    <!-- Raglan Sleeves (Bao trọn bờ vai X: 395-605 và nách, ôm sát tay tới cổ tay Y: 905) -->
+    <!-- Left Sleeve -->
+    <path d="M 466 466 L 388 472 Q 325 640 295 845 L 280 905 L 332 905 L 352 845 Q 380 660 425 520 Z" fill="url(#aoDaiNuGrad)" stroke="#AD1457" stroke-width="2"/>
+    <!-- Right Sleeve -->
+    <path d="M 534 466 L 612 472 Q 675 640 705 845 L 720 905 L 668 905 L 648 845 Q 620 660 575 520 Z" fill="url(#aoDaiNuGrad)" stroke="#AD1457" stroke-width="2"/>
+
+    <!-- Bodice with Chẽn Eo (Ôm sát eo thon Y: 700, xẻ tà tại eo Y: 780) -->
+    <path d="M 466 466 L 388 472 Q 405 580 435 700 Q 425 740 420 780 Q 500 795 580 780 Q 575 740 565 700 Q 595 580 612 472 L 534 466 Z" fill="url(#aoDaiNuGrad)" stroke="#AD1457" stroke-width="2"/>
+
+    <!-- High Standing Collar (Cổ đứng cao ôm gốc cổ Y: 424, nằm ngay bên dưới cằm Y: 420) -->
+    <path d="M 466 424 L 466 466 Q 500 480 534 466 L 534 424 Q 500 422 466 424 Z" fill="#C2185B" stroke="#F8BBD0" stroke-width="2.5"/>
+
+    <!-- Slant hook-and-eye line from collar to right armpit -->
+    <path d="M 534 466 Q 555 510 575 560" stroke="#F8BBD0" stroke-width="2" stroke-dasharray="4 4" fill="none"/>
+    <circle cx="542" cy="480" r="3.5" fill="#FFF"/>
+    <circle cx="555" cy="515" r="3.5" fill="#FFF"/>
+    <circle cx="568" cy="550" r="3.5" fill="#FFF"/>
+
+    <!-- Front Tà Áo (Tà trước bay bổng xòe nhẹ theo hông Y: 850 xuống quá bắp chân Y: 1370) -->
+    <path d="M 420 780 Q 390 1050 370 1370 Q 500 1395 630 1370 Q 610 1050 580 780 Z" fill="url(#aoDaiNuGrad)" stroke="#AD1457" stroke-width="2"/>
+    <path d="M 420 780 Q 390 1050 370 1370 Q 500 1395 630 1370 Q 610 1050 580 780 Z" fill="url(#aoDaiGlow)"/>
+
+    <!-- Subtle Floral Motif on front chest -->
+    <g transform="translate(470, 530) scale(0.7)" opacity="0.8">
+      <circle cx="0" cy="0" r="8" fill="#FFFDE7"/>
+      <ellipse cx="-12" cy="0" rx="9" ry="5" fill="#FFF"/>
+      <ellipse cx="12" cy="0" rx="9" ry="5" fill="#FFF"/>
+      <ellipse cx="0" cy="-12" rx="5" ry="9" fill="#FFF"/>
+      <ellipse cx="0" cy="12" rx="5" ry="9" fill="#FFF"/>
+    </g>
+  </g>
+</svg>

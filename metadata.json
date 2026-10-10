@@ -1,0 +1,7 @@
+{
+  "name": "Việt Phục Remix",
+  "description": "Ứng dụng khám phá và phối trang phục truyền thống Việt Nam theo sự kiện và phong cách búp bê giấy Gen Z",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1500" width="1000" height="1500">
+  <defs>
+    <linearGradient id="aoTacGradNu" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E53935"/>
+      <stop offset="40%" stop-color="#D32F2F"/>
+      <stop offset="100%" stop-color="#B71C1C"/>
+    </linearGradient>
+    <linearGradient id="brocadeGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFE082"/>
+      <stop offset="50%" stop-color="#FFD54F"/>
+      <stop offset="100%" stop-color="#FFB300"/>
+    </linearGradient>
+  </defs>
+
+  <!-- ÁO TẤC NỮ (ÁO NGŨ THÂN TAY THỤNG LỄ PHỤC) - KHỚP 100% TỈ LỆ THÂN NỮ -->
+  <g id="outer-aotac-nu">
+    <!-- Back Hem Shadow -->
+    <path d="M 370 700 Q 320 1050 335 1350 Q 500 1375 665 1350 Q 680 1050 630 700 Z" fill="#8E1414" opacity="0.5"/>
+
+    <!-- Wide Flowing Sleeves (Tay Thụng Cung Đình che trọn vai nách) -->
+    <!-- Left Sleeve -->
+    <path d="M 388 470 Q 220 540 170 820 Q 160 980 195 1060 Q 280 1050 330 940 L 375 650 L 420 520 Z" fill="url(#aoTacGradNu)" stroke="#8E1414" stroke-width="2.5"/>
+    <!-- Right Sleeve -->
+    <path d="M 612 470 Q 780 540 830 820 Q 840 980 805 1060 Q 720 1050 670 940 L 625 650 L 580 520 Z" fill="url(#aoTacGradNu)" stroke="#8E1414" stroke-width="2.5"/>
+
+    <!-- Gold Embroidered Sleeve Cuffs -->
+    <path d="M 170 820 Q 160 980 195 1060 L 215 1055 Q 185 980 195 825 Z" fill="url(#brocadeGold)"/>
+    <path d="M 830 820 Q 840 980 805 1060 L 785 1055 Q 815 980 805 825 Z" fill="url(#brocadeGold)"/>
+
+    <!-- Main Body & Robe Flaps (Bao trọn bờ vai X: 395-605, eo thu Y: 700, xòe rủ theo hông Y: 850 đến Y: 1350) -->
+    <path d="M 466 466 L 388 470 Q 355 700 350 1050 Q 340 1280 345 1350 Q 500 1375 655 1350 Q 660 1280 650 1050 Q 645 700 612 470 L 534 466 Z" fill="url(#aoTacGradNu)" stroke="#8E1414" stroke-width="2.5"/>
+
+    <!-- Standing Collar (Cổ đứng ôm sát gốc cổ Y: 424, nằm ngay bên dưới cằm Y: 420) -->
+    <path d="M 466 424 L 466 466 Q 500 480 534 466 L 534 424 Q 500 422 466 424 Z" fill="#C62828" stroke="url(#brocadeGold)" stroke-width="3"/>
+
+    <!-- 5 Traditional Knots (Ngũ Thường) -->
+    <circle cx="532" cy="436" r="5" fill="url(#brocadeGold)" stroke="#6D4C41" stroke-width="1.5"/>
+    <circle cx="532" cy="466" r="5" fill="url(#brocadeGold)" stroke="#6D4C41" stroke-width="1.5"/>
+    <circle cx="548" cy="515" r="5" fill="url(#brocadeGold)" stroke="#6D4C41" stroke-width="1.5"/>
+    <circle cx="568" cy="565" r="5" fill="url(#brocadeGold)" stroke="#6D4C41" stroke-width="1.5"/>
+    <circle cx="580" cy="630" r="5" fill="url(#brocadeGold)" stroke="#6D4C41" stroke-width="1.5"/>
+
+    <!-- Overlapping Curve of the Right Flap -->
+    <path d="M 534 466 Q 575 520 580 630 Q 570 950 560 1360" stroke="#8E1414" stroke-width="2.5" fill="none"/>
+
+    <!-- Subtle Golden Brocade Texture -->
+    <g opacity="0.3" stroke="url(#brocadeGold)" stroke-width="1.5" fill="none">
+      <path d="M 450 700 Q 500 680 550 700 Q 525 720 500 710 Z"/>
+      <path d="M 400 950 Q 450 930 500 950 Q 475 970 450 960 Z"/>
+      <path d="M 500 1150 Q 550 1130 600 1150 Q 575 1170 550 1160 Z"/>
+    </g>
+
+    <!-- Hem Border -->
+    <path d="M 345 1350 Q 500 1375 655 1350 L 655 1360 Q 500 1385 345 1360 Z" fill="url(#brocadeGold)"/>
+  </g>
+</svg>

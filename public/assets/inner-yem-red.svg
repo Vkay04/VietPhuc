@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1500" width="1000" height="1500">
+  <defs>
+    <radialGradient id="yemRedGrad" cx="50%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#FF5252"/>
+      <stop offset="50%" stop-color="#E53935"/>
+      <stop offset="100%" stop-color="#C62828"/>
+    </radialGradient>
+  </defs>
+
+  <!-- ÁO YẾM ĐÀO TRUYỀN THỐNG BẮC BỘ (THÊU HOA SEN) -->
+  <g id="inner-yem-red">
+    <!-- Neck straps (Dây yếm buộc cổ ôm sát cổ Y: 432) -->
+    <path d="M 472 432 Q 462 405 470 380" stroke="#FFCDD2" stroke-width="3" fill="none"/>
+    <path d="M 528 432 Q 538 405 530 380" stroke="#FFCDD2" stroke-width="3" fill="none"/>
+
+    <!-- Yếm Bodice: covers torso from neck line down to waist Y: 840 -->
+    <path d="M 460 435 Q 500 455 540 435 L 600 650 Q 500 840 500 840 Q 500 840 400 650 Z" fill="url(#yemRedGrad)" stroke="#B71C1C" stroke-width="2.5"/>
+
+    <!-- Side tying strings around waist -->
+    <path d="M 400 650 Q 370 680 355 740" stroke="#FFCDD2" stroke-width="2.5" fill="none"/>
+    <path d="M 600 650 Q 630 680 645 740" stroke="#FFCDD2" stroke-width="2.5" fill="none"/>
+
+    <!-- Lotus Embroidery detail on Yếm -->
+    <g transform="translate(500, 570)">
+      <path d="M 0 -24 C -14 -10 -18 10 0 24 C 18 10 14 -10 0 -24 Z" fill="#FFE082" opacity="0.85"/>
+      <path d="M -14 0 C -24 10 -18 20 0 24 C -5 14 -5 5 -14 0 Z" fill="#FFCA28" opacity="0.8"/>
+      <path d="M 14 0 C 24 10 18 20 0 24 C 5 14 5 5 14 0 Z" fill="#FFCA28" opacity="0.8"/>
+      <circle cx="0" cy="5" r="4" fill="#FFFFFF"/>
+    </g>
+  </g>
+</svg>

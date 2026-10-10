@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1500" width="1000" height="1500">
+  <defs>
+    <radialGradient id="quaiThaoGrad" cx="50%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#FFF8E1"/>
+      <stop offset="70%" stop-color="#FFE082"/>
+      <stop offset="100%" stop-color="#FFCA28"/>
+    </radialGradient>
+    <linearGradient id="silkStrap" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5C4033"/>
+      <stop offset="50%" stop-color="#8D6E63"/>
+      <stop offset="100%" stop-color="#D84315"/>
+    </linearGradient>
+  </defs>
+
+  <!-- NÓN QUAI THAO (NÓN BA TẦM KINH BẮC) -->
+  <g id="acc-non-quai-thao">
+    <!-- Huge Circular Flat Hat (Resting gracefully behind/above head or worn angled) -->
+    <!-- Outer Rim -->
+    <ellipse cx="500" cy="180" rx="270" ry="90" fill="url(#quaiThaoGrad)" stroke="#B78103" stroke-width="4"/>
+    <!-- Concentric Bamboo Ribs (Vành nón lá gồi đan tinh xảo) -->
+    <ellipse cx="500" cy="180" rx="240" ry="80" stroke="#FFB300" stroke-width="2" fill="none"/>
+    <ellipse cx="500" cy="180" rx="200" ry="68" stroke="#FFB300" stroke-width="2" fill="none"/>
+    <ellipse cx="500" cy="180" rx="150" ry="50" stroke="#FFB300" stroke-width="2" fill="none"/>
+    <ellipse cx="500" cy="180" rx="90" ry="32" stroke="#B78103" stroke-width="2.5" fill="#FFE082"/>
+
+    <!-- Trung tâm chóp nón / Đỉnh nón tròn lồi khum khum -->
+    <ellipse cx="500" cy="175" rx="55" ry="20" fill="#FFF9C4" stroke="#B78103" stroke-width="2"/>
+
+    <!-- QUAI THAO & TUA THAO (HANGING SILK STRAPS & TASSELS DOWN TO CHEST) -->
+    <!-- Left Strap -->
+    <path d="M 370 240 Q 380 400 420 540 Q 425 560 420 600" stroke="url(#silkStrap)" stroke-width="7" stroke-linecap="round" fill="none"/>
+    <!-- Left Tassel (Tua thao buông rủ) -->
+    <g transform="translate(420, 600)">
+      <circle cx="0" cy="5" r="8" fill="#D32F2F"/>
+      <path d="M -5 12 L -8 50 M 0 12 L 0 55 M 5 12 L 8 50" stroke="#E53935" stroke-width="3" stroke-linecap="round"/>
+      <path d="M -3 12 L -4 45 M 3 12 L 4 45" stroke="#FFD54F" stroke-width="2"/>
+    </g>
+
+    <!-- Right Strap -->
+    <path d="M 630 240 Q 620 400 580 540 Q 575 560 580 600" stroke="url(#silkStrap)" stroke-width="7" stroke-linecap="round" fill="none"/>
+    <!-- Right Tassel -->
+    <g transform="translate(580, 600)">
+      <circle cx="0" cy="5" r="8" fill="#D32F2F"/>
+      <path d="M -5 12 L -8 50 M 0 12 L 0 55 M 5 12 L 8 50" stroke="#E53935" stroke-width="3" stroke-linecap="round"/>
+      <path d="M -3 12 L -4 45 M 3 12 L 4 45" stroke="#FFD54F" stroke-width="2"/>
+    </g>
+
+    <text x="500" y="80" font-family="'Comfortaa', sans-serif" font-size="13" fill="#B78103" text-anchor="middle" font-weight="bold">Nón Quai Thao Ba Tầm</text>
+  </g>
+</svg>

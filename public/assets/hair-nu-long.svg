@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1500" width="1000" height="1500">
+  <defs>
+    <radialGradient id="hairLongGrad" cx="45%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#42312A"/>
+      <stop offset="50%" stop-color="#241712"/>
+      <stop offset="100%" stop-color="#120B08"/>
+    </radialGradient>
+  </defs>
+  <!-- TÓC DÀI THUẦN KHIẾT (NỮ) -->
+  <g id="hair-nu-long">
+    <!-- Back Flowing Hair -->
+    <path d="M 370 280 Q 335 500 345 780 Q 365 780 385 600 Q 390 350 400 280 Z" fill="url(#hairLongGrad)"/>
+    <path d="M 630 280 Q 665 500 655 780 Q 635 780 615 600 Q 610 350 600 280 Z" fill="url(#hairLongGrad)"/>
+
+    <!-- Crown & Bangs (Starts smoothly at Y: 150, wraps crown completely) -->
+    <path d="M 378 270 Q 380 150 500 150 Q 620 150 622 270 Q 590 195 520 195 Q 500 195 500 210 Q 500 195 480 195 Q 410 195 378 270 Z" fill="url(#hairLongGrad)"/>
+
+    <!-- Flowing Front Tendrils -->
+    <path d="M 385 260 Q 370 360 375 480 Q 382 480 395 380 Q 400 320 405 260 Z" fill="#241712"/>
+    <path d="M 615 260 Q 630 360 625 480 Q 618 480 605 380 Q 600 320 595 260 Z" fill="#241712"/>
+  </g>
+</svg>
